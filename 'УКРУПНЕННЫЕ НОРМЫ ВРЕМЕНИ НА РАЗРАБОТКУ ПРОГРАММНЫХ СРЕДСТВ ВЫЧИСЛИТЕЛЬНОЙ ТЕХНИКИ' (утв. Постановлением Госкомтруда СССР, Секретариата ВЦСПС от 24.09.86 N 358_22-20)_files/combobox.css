@@ -1,0 +1,155 @@
+.combo-wrapper {
+  border: 1px solid #cccccc;
+  color: #ccc;
+  font-family: Helvroman;
+  font-size: 12px;
+  line-height: 29px;
+  cursor: pointer;
+  zoom: 1;
+  outline: none;
+}
+
+.combo-wrapper-hover {
+  border-color: #4444aa;
+}
+
+.combo-wrapper-active {
+  /*border-color: #a0a0a0;*/
+}
+
+.combo-disabled {
+  background: #eeeeee;
+}
+
+.combo-selected {
+  padding: 0 0 0 5px;
+  margin: 0 -8px 0 0;
+  float: left;
+  color: #505050;
+  font-family: Tahoma, Arial, FreeSans;
+  font-size: 12px;
+}
+
+.combo-button {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  color: #cccccc;
+  float: right;
+  background: url(../img/select_bg.png) no-repeat -8px 4px;
+}
+
+.combo-list {
+  list-style: none;
+  background: #ffffff;
+  padding: 0;
+  margin: 1px 0 0;
+  font-family: Tahoma;
+  font-size: 12px;
+  border: 1px solid #efefef;
+  z-index: 9999;
+  max-height: 200px;
+  overflow-y: auto;
+}
+.combo-list li {
+  padding: 3px 4px;
+  margin: 0;
+  cursor: pointer;
+}
+.combo-list .combo-group-label {
+  font-style: italic;
+  font-weight: bold;
+  cursor: default;
+}
+.combo-list .combo-group {
+  padding: 0;
+  margin: 0;
+}
+.combo-list .combo-group li {
+  width: auto;
+  float: none;
+  padding-left: 10px;
+}
+.combo-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  clear: both;
+  overflow: hidden;
+  font-size: 10px;
+}
+
+.combo-multiple {
+  margin: 0;
+  zoom: 1;
+  clear: both;
+  overflow: hidden;
+  border: 1px solid green;
+  overflow-y: auto;
+}
+.combo-multiple li {
+  float: left;
+  width: 100%;
+}
+
+.combo-item-hover {
+  background: #aaaaaa;
+}
+
+.combo-item-active {
+  background: #ccc;
+  color: #000;
+}
+
+.combo-focus {
+  border-color: none;
+}
+
+.left .combo-wrapper, .right .combo-wrapper {
+  margin: 10px 0 10px 22px;
+}
+
+.prav-pros-search .combo-wrapper {
+  width: 494px !important;
+  height: 27px !important;
+  margin-top: 10px;
+  outline: none;
+}
+
+
+.search-left .combo-wrapper, .search-right .combo-wrapper {
+  width: 363px;
+  height: 23px;
+  border: 1px solid #ccc;
+  color: #ccc;
+  margin-top:2px;
+}
+
+.search-left .combo-wrapper {
+  width: 106px;
+  margin: 2px 7px 0 0;
+}
+
+.search-sel input.mail {
+  width: 365px !important;
+}
+
+.search-sel-small .combo-wrapper {
+  width: 106px !important;
+  margin: 3px 5px 3px 2px!important;
+}
+
+.search-sel-small p {
+  float:left;
+  margin-right: 3px;
+  margin-left: 9px;
+  padding-top: 9px;
+}
+
+.search-sel-small p.content-text {
+  float:none;
+}
+select[name="type"],
+select[name="accept"] {
+    width: 375px;
+}
